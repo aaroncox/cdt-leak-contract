@@ -1,0 +1,1 @@
+Simple example contract showing compile issue with CDT.

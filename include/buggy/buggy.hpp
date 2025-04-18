@@ -9,7 +9,7 @@ using namespace std;
 namespace buggy {
 
 struct buggy_struct {
-  eosiosystem::eosio_global_state global;
+  optional<eosiosystem::eosio_global_state> global;
   eosiosystem::powerup_state powerup;
   eosiosystem::exchange_state ram;
   eosiosystem::rex_pool rex;
